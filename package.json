@@ -7,6 +7,8 @@
     "Vertis-UI": "buildEnv.js"
   },
   "scripts": {
+    "config:env": "node bin/buildEnv.js",
+    "build:client": "cd client && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd server && npm start"
   },

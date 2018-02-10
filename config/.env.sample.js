@@ -1,6 +1,9 @@
 const envBuild = {
   'server': [
-    'PORT=3000'
+    'PORT='
+  ],
+  "client": [
+    "REST_SERVER_URL="
   ]
 };
 
